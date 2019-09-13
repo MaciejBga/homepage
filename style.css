@@ -1,0 +1,30 @@
+body {
+	background-color: #fefefe;
+	font-family: sans-serif;
+}
+
+/* .header {
+	color: burlywood;
+} */
+
+.heading {
+	color: darkblue;
+}
+
+.sectionHeader {
+	color: greenyellow;
+}
+
+.diaryHeader {
+	color: brown;
+	font-size: 64px;
+}
+
+.diary {
+	background-color: #ddd;
+}
+
+.paragraph {
+	color: blueviolet;
+	font-style: italic;
+}
