@@ -1,6 +1,18 @@
 body {
-	background-color: #af1313;
+	background-color: #e2e3e2;
 	font-family: sans-serif;
+	width: 60vw;
+	margin: 0 auto;
+}
+
+.header,
+.footer {
+	padding: 16px 0;
+}
+
+.main {
+	background-color: #b0c6ce;
+	padding: 16px;
 }
 
 /* .header {
@@ -8,7 +20,27 @@ body {
 } */
 
 .heading {
-	color: darkblue;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 4px dotted #272d2d;
+}
+
+.heading__title {
+	color: #272d2d;
+	font-size: 36px;
+	text-shadow: 2px 2px #e2e3e2;
+}
+
+.about {
+	height: 40vh;
+}
+
+.about__picture {
+	height: 200px;
+	float: left;
+	margin-right: 16px;
+	border-radius: 60px 100px;
 }
 
 .sectionHeader {
@@ -21,10 +53,12 @@ body {
 }
 
 .diary {
-	background-color: #ddd;
+	background-color: #e2e3e2;
+	/* margin: 12px 0; */
+	padding: 12px;
 }
 
 .paragraph {
-	color: blueviolet;
+	/* color: blueviolet; */
 	font-style: italic;
 }
